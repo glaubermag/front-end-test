@@ -28,7 +28,7 @@ span {
 
 @media only screen and (min-width: 1000px) {
     header {
-        background-image: url(/img/bgdesk.jpg);
+        background-image: url('/img/bgdesk.jpg');
         display: inline-block;
         background-position: center;
         background-repeat: no-repeat;
@@ -128,7 +128,7 @@ footer {
         margin: auto;
     }
     aside {
-        background-image: url(/img/bgmobile.jpg);
+        background-image: url('/img/bgmobile.jpg');
         background-position: center;
         background-repeat: no-repeat;
         height: 22em;
