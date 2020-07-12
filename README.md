@@ -1,10 +1,8 @@
-# front-end-test
- 
- 
- # VIEW DESKTOP
+
+ # PRÉVIA DESKTOP
  ![](https://github.com/glaubermag/front-end-test/blob/master/previewdesk1.png?raw=true)
- # VIEW MOBILE
- ![](https://github.com/glaubermag/front-end-test/blob/master/previewmobile.png?raw=true
+ # PRÉVIA MOBILE
+ ![](https://github.com/glaubermag/front-end-test/blob/master/previewmobile.png?raw=true)
 
 ## Objetivo:
 1. Desenvolver o front-end dos arquivos PSD em anexo;
