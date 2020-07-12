@@ -1,9 +1,63 @@
-body {
-    background-image: url("./img/bgdesk.jpg");
-}
-
-@media only screen and (max-width: 767px) {
-    header {
-        background-image: url('./img/bgdesk.jpg');
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-}
+    
+    header {
+        background-image: url(/img/bgdesk.jpg);
+        display: inline-block;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 20em;
+        height: 50em;
+    }
+    
+    html,
+    body {
+        margin: 0px;
+        color: #fff;
+    }
+    
+    .img-article {
+        border-style: solid;
+        border-color: #6f6f6f;
+        border-width: 10px;
+    }
+    
+    .img-section {
+        border-style: solid;
+        border-color: #454545;
+        border-width: 10px;
+        border-radius: 50%;
+        max-height: 20em;
+        max-width: ;
+    }
+    
+    article {
+        background-color: #454545;
+        max-width: 1320px;
+    }
+    
+    section {
+        background-color: #6f6f6f;
+    }
+    
+    .item {
+        flex: 1;
+        margin: 5px;
+        padding: 0 10px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #454545;
+    }
+    
+    @media only screen and (max-width: 767px) {
+        header {
+            background-image: url(/img/bgdesk.jpg);
+        }
+    }
