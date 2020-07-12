@@ -1,7 +1,11 @@
     .container {
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        margin: auto;
+    }
+    
+    .column {
+        flex-direction: column;
     }
     
     header {
@@ -11,6 +15,22 @@
         background-repeat: no-repeat;
         height: 20em;
         height: 50em;
+        justify-content: start;
+        text-align: center;
+    }
+    
+    header>h1 {
+        color: #546130;
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    
+    header>h2 {
+        color: #2d3b09;
+        margin-top: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
     }
     
     html,
@@ -31,16 +51,46 @@
         border-width: 10px;
         border-radius: 50%;
         max-height: 20em;
-        max-width: ;
+        max-width: 400px;
     }
     
     article {
         background-color: #454545;
-        max-width: 1320px;
+        max-width: 1365px;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        justify-content: center;
+    }
+    
+    .title-article {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: white;
+    }
+    
+    .p-article {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: white;
     }
     
     section {
         background-color: #6f6f6f;
+        max-width: 1365px;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+    
+    .h1-section {
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        color: white;
+    }
+    
+    .p-section {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: white;
     }
     
     .item {
@@ -51,9 +101,25 @@
         font-size: 1.5em;
     }
     
+    .item2 {
+        flex: ;
+        margin: 5px;
+        padding: 0 10px;
+        text-align: center;
+        font-size: 1.5em;
+        max-width: 50%;
+    }
+    
     footer {
         text-align: center;
         background-color: #454545;
+        max-width: 1365px;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: white;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
     }
     
     @media only screen and (max-width: 767px) {
