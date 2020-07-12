@@ -130,12 +130,15 @@ footer {
     aside {
         background-image: url(/img/bgmobile.jpg);
         background-position: center;
+        background-size: cover;
         background-repeat: no-repeat;
         height: 22em;
         text-align: center;
     }
     header {
         background-color: #6f6f6f;
+        background-image: none;
+        height: 12em;
     }
     header>h1 {
         color: #fff;
